@@ -1,0 +1,16 @@
+PODS:
+  - OpenIMSDKCoreSwift (3.9.0)
+
+DEPENDENCIES:
+  - OpenIMSDKCoreSwift (from `../`)
+
+EXTERNAL SOURCES:
+  OpenIMSDKCoreSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OpenIMSDKCoreSwift: 2b878e70ab5c7e455c42a56930770995a2ed7954
+
+PODFILE CHECKSUM: 9d1dd5f41f2b214d85995b9f4b119e51e6188de6
+
+COCOAPODS: 1.15.2
