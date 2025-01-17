@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/openimsdk/open-im-sdk-ios'
   s.license = { :type => 'MIT', :file => 'Sources/LICENSE' }
   s.author = { 'openim' => 'https://github.com/openimsdk/openim-sdk-swift-core' }
-  s.source = { :git => 'https://github.com/openimsdk/openim-sdk-swift-core.git', :tag => s.version.to_s }
+  s.source = { :git => 'https://github.com/std-s/openim-sdk-swift-core.git', :tag => s.version.to_s }
 
   s.platforms = { :ios => '13.0' }
   s.swift_versions = ["5.7"]
