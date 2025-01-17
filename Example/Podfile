@@ -6,5 +6,5 @@ target 'OpenIMSDKExample' do
   use_frameworks!
 
   # Pods for OpenIMSDKExample
-  pod 'OpenIMSDKCoreSwift', :path => '../openim-sdk-swift-core/'
+  pod 'OpenIMSDKCoreSwift', :path => '../'
 end

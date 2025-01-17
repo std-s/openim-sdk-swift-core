@@ -16,8 +16,16 @@ Pod::Spec.new do |s|
 
   s.static_framework = true
   s.vendored_frameworks = 'Framework/*.xcframework'
-  
+
   s.resource_bundles = {
    "Privacy" => ["Sources/OpenIMSDKCoreSwift/PrivacyInfo.xcprivacy"]
+  }
+
+  s.pod_target_xcconfig = {
+    'VALID_ARCHS' => 'arm64'
+  }
+
+  s.xcconfig = {
+    'ONLY_ACTIVE_ARCH' => 'YES'
   }
 end
